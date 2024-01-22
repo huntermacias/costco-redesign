@@ -87,7 +87,7 @@ function App() {
         </section>
 
         <main className="px-4">
-        <div className="bg-dark-primary py-12 bg-cover bg-center" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149151738.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705536000&semt=ais')" }}>
+        <div className="bg-dark-primary py-12 bg-cover bg-center" style={{ backgroundImage: "url('/images/bg.avif')" }}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4 font-bold text-[#d32029] animate-fade-in-down">
       Welcome to Costco!

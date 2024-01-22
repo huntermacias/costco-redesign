@@ -89,10 +89,10 @@ function App() {
         <main className="px-4">
           <div className="bg-dark-primary py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4 font-bold text-[#d32029]">
+              <h1 className="text-2xl md:text-5xl lg:text-6xl mb-4 font-bold text-[#d32029]">
                 Welcome to Costco!
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-white mb-6">
+              <p className="text-mg md:text-xl lg:text-2xl text-white mb-6">
                 Your One-Stop Shop for Quality and Savings
               </p>
               <div className="inline-block">
@@ -106,7 +106,7 @@ function App() {
           </div>
 
           {/* Sample Product Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 space-y-4 space-x-2">
             {/* Product Card */}
 
             {products.map((product) => (
@@ -115,6 +115,7 @@ function App() {
                 name={product.name}
                 description={product.description}
                 img={product.image}
+                category={product.category}
                 price={product.price}
                 isMemberExclusive={product.isMemberExclusive}
               />

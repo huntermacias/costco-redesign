@@ -14,7 +14,8 @@ const products = [
 						water-resistant casing. The LuxeTime Smartwatch is your
 						perfect companion for both active days and upscale evenings.`,
 		"price": 99.99,
-		"image": "/public/products/watch.png",
+		"image": "/products/watch.png",
+		"category": "Electronics",
 		"isMemberExclusive": true,
 
 	}, 
@@ -29,7 +30,8 @@ const products = [
 		
 		With the reliability and quality assurance of the Kirkland brand, the SoundWave Smart Speaker is not just an electronic device; it's an investment in your home's ambience and your personal comfort. Available exclusively at Costco.`,
 		"price": 129.99,
-		"image": "/public/products/smart_speaker.png",
+		"image": "/products/smart_speaker.png",
+		"category": "Electronics",
 		"isMemberExclusive": true,
 		
 	},
@@ -44,7 +46,8 @@ const products = [
 		
 		Crafted with durability in mind, the QuantumLink boasts a water-resistant and scratch-proof design, making it perfect for both everyday wear and special occasions. Available exclusively at Costco, the QuantumLink Smart Bracelet is not just a piece of technology; it's your companion for a smarter, more connected life.`,
 		"price": 199.99, 
-		"image": "/public/products/smart_bracelet.png",
+		"image": "/products/smart_bracelet.png",
+		"category": "Electronics",
 		"isMemberExclusive": true,
 	}, 
 	{
@@ -57,7 +60,8 @@ const products = [
 		Smart connectivity is at the heart of the UltraView 4K TV. It comes equipped with a user-friendly interface, allowing you to effortlessly navigate through various streaming services, apps, and smart home features. The built-in voice control functionality and seamless integration with popular virtual assistants make it easier than ever to control your TV.
 		
 		Designed to fit elegantly into any living space, its minimalist frame and sophisticated black or dark gray tones complement the Kirkland brand's promise of luxury and quality. Whether mounted on the wall or set on its stand, the UltraView 4K Smart TV is more than just a television; it's a statement piece that redefines the entertainment experience in your home.`,
-		"image": "/public/products/smart_tv.png",
+		"image": "/products/smart_tv.png",
+		"category": "Electronics",
 		"price": 849.99,
 	}
 ]

@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className=" flex flex-col min-h-screen bg-dark-primary text-white">
+      
       {/* Navigation Toggle */}
       <button
         onClick={toggleNav}
@@ -25,7 +26,7 @@ function App() {
 
       {/* Side Navigation */}
       <div
-        className={`fixed inset-y-0 left-0 transform bg-dark-secondary p-4 w-64 ${
+        className={`fixed inset-y-0 left-0 transform bg-dark-secondary border-r border-[#d32029]/50 p-4 w-64 ${
           isNavOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-20`}
       >

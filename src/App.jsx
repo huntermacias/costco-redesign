@@ -63,7 +63,7 @@ function App() {
         {/* Hero Section */}
         <section
           className="relative bg-cover bg-center h-[65vh] w-full mb-8 flex items-center justify-center text-center"
-          style={{ backgroundImage: "url('/public/images/costco_hero.png')" }}
+          style={{ backgroundImage: "url('/images/costco_hero.png')" }}
         >
           {/* Overlay */}
           <div className="absolute inset-0 bg-black opacity-50" />

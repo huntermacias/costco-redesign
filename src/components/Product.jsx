@@ -15,7 +15,7 @@ const Product = ({ name, description, img, price, isMemberExclusive, category })
         <ReadMore>{description}</ReadMore>
 
         {/* Category Badge */}
-        <span className="flex flex-start w-1/3 items-center justify-center bg-gray-900 hover:bg-[#d32029] rounded-full mt-4">
+        <span className="flex flex-start w-fit px-3 py-0.5 items-center justify-center bg-gray-900 hover:bg-[#d32029] rounded-full mt-4">
 			{category}
 		</span>
 

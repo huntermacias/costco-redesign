@@ -63,6 +63,7 @@ const products = [
 		"image": "/products/smart_tv.png",
 		"category": "Electronics",
 		"price": 849.99,
+		"isMemberExclusive": true,
 	}
 ]
 

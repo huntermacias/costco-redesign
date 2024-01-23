@@ -1,10 +1,27 @@
 import PropTypes from "prop-types";
 import ReadMore from "./ReadMore";
+import { useNavigate } from "react-router-dom";
 
+const Product = ({
+  id,
+  name,
+  description,
+  img,
+  price,
+  isMemberExclusive,
+  category,
+}) => {
+  const navigate = useNavigate();
 
-const Product = ({ name, description, img, price, isMemberExclusive, category }) => {
+  const goToProductDetails = () => {
+    navigate(`/product/${id}`);
+  };
+
   return (
-    <div className="group bg-dark-secondary rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform transition duration-500 hover:scale-105">
+    <div
+      onClick={goToProductDetails}
+      className="group bg-dark-secondary rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform transition duration-500 hover:scale-105"
+    >
       <img
         src={img}
         alt={name}
@@ -16,8 +33,8 @@ const Product = ({ name, description, img, price, isMemberExclusive, category })
 
         {/* Category Badge */}
         <span className="flex flex-start w-fit px-3 py-0.5 items-center justify-center bg-gray-900 hover:bg-[#d32029] rounded-full mt-4">
-			{category}
-		</span>
+          {category}
+        </span>
 
         {/* Members Only Section */}
         {isMemberExclusive && (
@@ -44,6 +61,7 @@ const Product = ({ name, description, img, price, isMemberExclusive, category })
 };
 
 Product.propTypes = {
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
@@ -53,4 +71,3 @@ Product.propTypes = {
 };
 
 export default Product;
-
